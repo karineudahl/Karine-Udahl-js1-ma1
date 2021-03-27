@@ -1,6 +1,3 @@
-
-
-
 // QUESTION 1
 const cat = {
     complain: function() {
@@ -23,6 +20,7 @@ heading.style.fontSize = "2em";
 
 // QUESTION 4
 function addClass() {
+    
     heading.className += "subheading";
 }
 
@@ -36,7 +34,6 @@ const paragraphs = document.querySelectorAll("p");
 for(let i = 0; i < paragraphs.length; i++) {
     
     paragraphs[i].style.color = "red";
-    
 }
 
 
@@ -50,6 +47,7 @@ resultsContainer.style.backgroundColor = "yellow";
 
 
 
+// FOR QUESTION 7 AND 8: 
 const cats = [
     {
         name: "Blob",
@@ -79,8 +77,6 @@ listContainer(cats);
 
 
 // QUESTION 8 
-
-
 function createCats(cats) {
 
     let html = "";
@@ -105,25 +101,3 @@ function createCats(cats) {
 const resultsCats = createCats(cats);
 const catsContainer = document.querySelector(".cat-container");
 catsContainer.innerHTML = resultsCats; 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
